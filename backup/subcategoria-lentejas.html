@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora TCA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3>Categorías</h3>
+            <button id="close-sidebar" class="close-btn">&times;</button>
+        </div>
+        
+        <ul class="sidebar-menu">
+<li class="has-submenu">
+                <a href="#">ALIMENTOS</a>
+                
+                <div class="submenu-panel">
+                    
+                    <div id="vista-lista-alimentos" class="vista-activa">
+                        <div class="submenu-header">
+                            <h2>ALIMENTOS</h2>
+                        </div>
+                        
+                        <ul class="sidebar-menu sub-menu-lista">
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('abarrotes')">Abarrotes</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('condimentos')">Condimentos</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('desayunos')">Desayunos</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('dulces')">Dulces y postres</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('golosinas')">Golosinas</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('salsas')">Salsas</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('snacks')">Snacks salados</a></li>
+                        </ul>
+                    </div>
+
+                   <div id="vista-cuadricula-abarrotes" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Abarrotes</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="categoria-aceites.html">ACEITES</a></h4>
+                                <a href="#">Aceites clásicos</a>
+                                <a href="#">Aceites especiales</a>
+                            </div>
+                           <div class="submenu-column">
+                                <h4><a href="#">ACEITUNAS</a></h4>
+                                <a href="#">Negra</a>
+                                <a href="#">Verde</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">CONSERVA DE ALIMENTOS</a></h4>
+                                <a href="#">Champiñones</a>
+                                <a href="#">Choclo</a>
+                                <a href="#">Frijoles</a>
+                                <a href="#">Garbanzos</a>                               
+                                <a href="#">Pallares</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">CONSERVAS MARINAS</a></h4>
+                                <a href="#">Filete atún</a>
+                                <a href="#">Filete atún artesanal</a>
+                                <a href="#">Filete bonito</a>
+                                <a href="#">Filete caballa</a>                               
+                                <a href="#">Grated atún</a>
+                            </div>
+                           <div class="submenu-column">
+                              <h4><a href="categoria-azucar.html">AZÚCAR Y ENDULZANTES</a></h4> 
+                              <a href="#">Endulzantes naturales</a>
+                              <a href="#">Endulzantes refinados</a>
+                           </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">CONSERVAS DE FRUTA</a></h4>
+                                <a href="#">Cocktail fruta</a>
+                                <a href="#">Durazno</a>                               
+                                <a href="#">Piña</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">GRANOS</a></h4>
+                                <a href="#">Arroz</a>
+                                <a href="#">Menestra</a>
+                                <a href="#">Otros granos</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">HARINAS</a></h4>
+                                <a href="#">Harinas tradicionales</a>
+                                <a href="#">Harinas especiales</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">ALIMENTOS INSTANTÁNEOS</a></h4>
+                                <a href="#">Puré de papa</a>
+                                <a href="#">Sopas</a>
+                                <a href="#">Tallarines</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">PASTAS Y FIDEOS</a></h4>
+                                <a href="#">Fideos</a>
+                                <a href="#">Pastas</a>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div id="vista-cuadricula-condimentos" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Condimentos</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">MEZCLAS DE COCINA</a></h4>
+                                <a href="#">Ablandador</a>
+                                <a href="#">Apanador</a>
+                               
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">SILLAO</a></h4>
+                                <a href="#">Liquido</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">SAZONADORES</a></h4>
+                                <a href="#">Pasta</a>
+                                <a href="#">Polvo</a>
+                            </div>                            
+                            <div class="submenu-column">
+                                <h4><a href="#">VINAGRES</a></h4>
+                                <a href="#">Balsamico</a>
+                                <a href="#">Blanco</a>
+                                <a href="#">Manzana</a>
+                                <a href="#">Tinto</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vista-cuadricula-desayunos" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Desayunos</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                            <h4><a href="#">AVENAS</a></h4>
+                                <a href="#">Instantaneas</a>
+                                <a href="#">Reforzadas</a>
+                                <a href="#">Saborizadas</a>
+                                <a href="#">Tradicional</a>
+                            </div>
+                            <div class="submenu-column">
+                            <h4><a href="#">CAFÉS</a></h4>
+                                <a href="#">Instantaneos</a>
+                                <a href="#">Molido</a>
+                                <a href="#">Grano</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">CEBADAS</a></h4>
+                                <a href="#">Polvo</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">CEREALES</a></h4>
+                                <a href="#">Avena</a>
+                                <a href="#">Azucarada</a>
+                                <a href="#">Chocolate</a>
+                                <a href="#">Clasico</a>                  
+                                <a href="#">Fresa</a>
+                                <a href="#">Frutas</a>
+                                <a href="#">Hojuelas de Maiz</a>
+                                <a href="#">Miel</a>
+                                <a href="#">Surtidos</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">COMPLEMENTO LÁCTEO</a></h4>
+                                <a href="#">Chocolate para taza</a>
+                                <a href="#">Complementos nutricionales</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">JAMONES UNTABLES Y PATES</a></h4>
+                                <a href="#">Jamón</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">INFUSIONES Y BEBIDAS CALIENTES</a></h4>
+                                <a href="#">Funcional</a>
+                                <a href="#">Tradicional</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">LECHES VEGETALES</a></h4>
+                                <a href="#">Coco</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">LÁCTEOS Y DERIVADOS</a></h4>
+                                <a href="#">Margarina</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">DULCES UNTABLES Y MERMELADAS</a></h4>
+                                <a href="#">Cremas</a>
+                                <a href="#">Mermeladas</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vista-cuadricula-dulces" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Dulces y postres</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">BARRAS ENERGÉTICAS</a></h4>
+                                <a href="#">Cereal</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">BIZCOCHOS</a></h4>
+                                <a href="#">Rellenos</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">COMPOTAS DE FRUTA</a></h4>
+                                <a href="#">Mini DPK</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">GALLETAS</a></h4>
+                                <a href="#">Galletas dulces</a>
+                                <a href="#">Galletas integrales</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">POSTRES INSTANTÁNEOS</a></h4>
+                                <a href="#">Polvo</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">MEZCLAS Y REPOSTERÍAS</a></h4>
+                                <a href="#">Concentrados</a>
+                                <a href="#">Pre-Mezclas</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">UNTABLES</a></h4>
+                                <a href="#">Cremas</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">WAFER Y CHOCOWAFER</a></h4>
+                                <a href="#">Rellenos clasicos</a>                                <a href="#">Instantaneas</a>
+                                <a href="#">Bañado</a>
+                                <a href="#">Tubulares</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vista-cuadricula-golosinas" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Golosinas</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">MENTAS Y CARAMELOS FUNCIONALES</a></h4>
+                                <a href="#">Funcionales</a>
+                                <a href="#">Infantiles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vista-cuadricula-salsas" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Salsas</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">SALSAS Y ACOMPAÑAMIENTOS</a></h4>
+                                <a href="#">Dulces</a>
+                                <a href="#">Saladas</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">SALSAS LISTAS</a></h4>
+                                <a href="#">Bolognesa</a>
+                                <a href="#">Hongos</a>
+                                <a href="#">Tomate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vista-cuadricula-snacks" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('alimentos')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Snacks salados</h2>
+                        </div>
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">FRITURAS</a></h4>
+                                <a href="#">Papas fritas</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">GALLETAS SALADAS</a></h4>
+                                <a href="#">Planas</a>
+                            </div>
+                            <div class="submenu-column">
+                                <h4><a href="#">POP CORN PARA MICROONDAS</a></h4>
+                                <a href="#">Jalapeño</a>
+                                <a href="#">Mantequilla</a>
+                                <a href="#">Mantequilla extra</a>
+                                <a href="#">Mantequilla light</a>
+                                <a href="#">Natural</a>
+                                <a href="#">Queso</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="has-submenu">
+                <a href="categoria-bebidas.html">BEBIDAS</a>
+                
+                <div class="submenu-panel">
+                    
+                    <div id="vista-lista-bebidas" class="vista-activa">
+                        <div class="submenu-header">
+                            <h2>BEBIDAS</h2>
+                        </div>
+                        
+                        <ul class="sidebar-menu sub-menu-lista">
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('alcoholicas')">Alcohólicas</a></li>
+                            <li><a href="javascript:void(0)" onclick="mostrarCuadricula('sin-alcohol')">Sin Alcohol</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="vista-cuadricula-alcoholicas" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('bebidas')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Alcohólicas</h2>
+                        </div>
+                        
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">CERVEZAS</a></h4>
+                                <a href="#">Dorada</a>
+                                <a href="#">Lager</a>
+                                <a href="#">Negra</a>
+                                <a href="#">Pilsener</a>
+                                <a href="#">Trigo</a>
+                            </div>
+                            
+                            <div class="submenu-column">
+                                <h4><a href="#">LICORES</a></h4>
+                                <a href="#">Espumante</a>
+                                <a href="#">Pisco</a>
+                                <a href="#">Ron</a>
+                                <a href="#">Vino y sangría</a>
+                                <a href="#">Vodka</a>
+                                <a href="#">Whisky</a>
+                            </div>
+                            
+                            <div class="submenu-column">
+                                <h4><a href="#">RTD - READY TO DRINK</a></h4>
+                                <a href="#">Arándanos</a>
+                                <a href="#">Borgoña</a>
+                                <a href="#">Cranberry</a>
+                                <a href="#">Fresa</a>
+                                <a href="#">Ice red</a>
+                                <a href="#">Uva</a>
+                                <a href="#">Limón</a>
+                                <a href="#">Mango</a>
+                                <a href="#">Manzana</a>
+                                <a href="#">Maracuyá</a>
+                                <a href="#">Mojito</a>
+                                <a href="#">Mora</a>
+                                <a href="#">Naranja</a>
+                                <a href="#">Pack surtido</a>
+                                <a href="#">Pink lemonade</a>
+                                <a href="#">Piña colada</a>
+                                <a href="#">Piña menta</a>
+                                <a href="#">Rose</a>
+                                <a href="#">Sandía</a>
+                                <a href="#">Tropical blue</a>
+                                <a href="#">Tutti frutti</a>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div id="vista-cuadricula-sin-alcohol" class="vista-oculta">
+                        <div class="submenu-header">
+                            <button class="btn-volver" onclick="volverLista('bebidas')">
+                                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                Volver
+                            </button>
+                            <h2>Sin Alcohol</h2>
+                        </div>
+                        
+                        <div class="submenu-content">
+                            <div class="submenu-column">
+                                <h4><a href="#">ENERGIZANTES Y MALTAS</a></h4>
+                                <a href="#">Camu camu</a>
+                                <a href="#">Clásico</a>
+                                <a href="#">Colágeno</a>
+                                <a href="#">Fresa</a>
+                                <a href="#">Ginseng</a>
+                                <a href="#">Uva</a>
+                                <a href="#">Maltas</a>
+                            </div>
+                            
+                            <div class="submenu-column">
+                                <h4><a href="#">GASEOSAS</a></h4>
+                                <a href="#">Amarillas</a>
+                                <a href="#">Blancas</a>
+                                <a href="#">Colas</a>
+                                <a href="#">Fantasía</a>
+                                <a href="#">Guaranás</a>
+                            </div>
+
+                            <div class="submenu-column">
+                                <h4><a href="#">REFRESCOS INSTANTÁNEOS</a></h4>
+                                <a href="#">Refrescos en polvo</a>
+                            </div>
+
+                            <div class="submenu-column">
+                                <h4><a href="#">BAR Y COMPLEMENTOS</a></h4>
+                                <a href="#">Goma</a>
+                                <a href="#">Granadina</a>
+                                <a href="#">Ginger ale</a>
+                                <a href="#">Tónica</a>
+                            </div>
+
+                            <div class="submenu-column">
+                                <h4><a href="#">REHIDRATANTES Y SUEROS</a></h4>
+                                <a href="#">Blueberry</a>
+                                <a href="#">Mandarina</a>
+                                <a href="#">Manzana</a>
+                                <a href="#">Tropical</a>
+                                <a href="#">Uva</a>
+                            </div>
+                        </div>
+                    </div>
+            </li>
+            
+            <li class="has-submenu">
+    <a href="categoria-cuidado-personal.html">CUIDADO PERSONAL</a>
+    
+    <div class="submenu-panel">
+        <div id="vista-lista-cuidado-personal" class="vista-activa">
+            <div class="submenu-header">
+                <h2>CUIDADO PERSONAL</h2>
+            </div>
+            <ul class="sidebar-menu sub-menu-lista">
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('capilar')">Capilar</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('sexual')">Cuidado sexual e intimidad</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('dental')">Higiene dental y cuidado oral</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('higiene-personal')">Higiene personal</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('infantil')">Infantil</a></li>
+            </ul>
+        </div>
+
+        <div id="vista-cuadricula-capilar" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('cuidado-personal')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Capilar</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">SHAMPOO Y ACONDICIONADOR</a></h4>
+                    <a href="#">Acondicionador</a>
+                    <a href="#">Shampoo</a>
+                    <a href="#">Kits</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CREMAS Y TRATAMIENTOS</a></h4>
+                    <a href="#">Crema de peinar</a>
+                    <a href="#">Gel</a>
+                    <a href="#">Tratamiento capilar</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-sexual" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('cuidado-personal')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Cuidado sexual e intimidad</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">ÍNTIMO</a></h4>
+                    <a href="#">Lubricante</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">PRESERVATIVOS</a></h4>
+                    <a href="#">Clásico</a>
+                    <a href="#">Delgado</a>
+                    <a href="#">Retardante</a>
+                    <a href="#">Texturizados</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-dental" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('cuidado-personal')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Higiene dental y oral</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">CEPILLOS</a></h4>
+                    <a href="#">360 COMPLETE</a>
+                    <a href="#">360 Luminous White</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CREMA DENTAL</a></h4>
+                    <a href="#">Anti caries</a>
+                    <a href="#">Blanqueadora</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CREMA DENTAL COMBO</a></h4>
+                    <a href="#">Anti caries</a>
+                    <a href="#">Herbal</a>
+                    <a href="#">Triple acción</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">ENJUAGUES</a></h4>
+                    <a href="#">Con alcohol</a>
+                    <a href="#">Sin alcohol</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">HILO DENTAL</a></h4>
+                    <a href="#">Menta</a>
+                    <a href="#">TOTAL</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-higiene-personal" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('cuidado-personal')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Higiene Personal</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">ADULTO MAYOR</a></h4>
+                    <a href="#">Pañal</a>
+                    <a href="#">Toallas</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CUIDADO PERSONAL</a></h4>
+                    <a href="#">Desodorante</a>
+                    <a href="#">Espuma de afeitar</a>
+                    <a href="#">Jabones</a>
+                    <a href="#">Pañuelos</a>
+                    <a href="#">Talco</a>
+                    <a href="#">Toallas Húmedas</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">HIGIENE FEMENINO</a></h4>
+                    <a href="#">Tampón</a>
+                    <a href="#">Toallas</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">KITS Y REGALOS</a></h4>
+                    <a href="#">Kit colonia + regalo</a>
+                    <a href="#">Kit colonias</a>
+                    <a href="#">Kit deo + colonia</a>
+                    <a href="#">Kit deo + gel</a>
+                    <a href="#">Kit espuma + deo</a>
+                    <a href="#">Kit jabones + cepillo</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-infantil" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('cuidado-personal')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Infantil</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">HIGIENE DENTAL INFANTIL</a></h4>
+                    <a href="#">Cepillos</a>
+                    <a href="#">Combo crem+cep</a>
+                    <a href="#">Crema dental</a>
+                    <a href="#">Enjuagues</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">KITS INFANTILES</a></h4>
+                    <a href="#">Full kit kids 4-1</a>
+                    <a href="#">Kit kids colonia+shampoo</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CUIDADO BEBÉS</a></h4>
+                    <a href="#">Pañales</a>
+                    <a href="#">Toallas húmedas kids</a>
+                    <a href="#">Implementos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+
+<li class="has-submenu">
+    <a href="categoria-hogar.html">HOGAR Y UTILIDADES</a>
+    
+    <div class="submenu-panel">
+        <div id="vista-lista-hogar" class="vista-activa">
+            <div class="submenu-header">
+                <h2>HOGAR Y UTILIDADES</h2>
+            </div>
+            <ul class="sidebar-menu sub-menu-lista">
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('electronicos')">Accesorios Electrónicos</a></li>
+            </ul>
+        </div>
+
+        <div id="vista-cuadricula-electronicos" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('hogar')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Accesorios Electrónicos</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">ENERGÍA</a></h4>
+                    <a href="#">Pilas y Baterías</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+
+<li class="has-submenu">
+    <a href="categoria-limpieza.html">LIMPIEZA DEL HOGAR</a>
+    
+    <div class="submenu-panel">
+        <div id="vista-lista-limpieza" class="vista-activa">
+            <div class="submenu-header">
+                <h2>LIMPIEZA DEL HOGAR</h2>
+            </div>
+            <ul class="sidebar-menu sub-menu-lista">
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('accesorios-limpieza')">Accesorios de Limpieza</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('cuidado-ropa')">Limpieza y cuidado de la ropa</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('limpieza-general')">Limpieza General</a></li>
+            </ul>
+        </div>
+
+        <div id="vista-cuadricula-accesorios-limpieza" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('limpieza')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Accesorios de Limpieza</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">ESCOBAS Y MOPAS</a></h4>
+                    <a href="#">Escobas Interiores</a>
+                    <a href="#">Mopas Algodón</a>
+                    <a href="#">Rodillos Quita pelusa</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">ESPONJAS Y FIBRAS</a></h4>
+                    <a href="#">Especializada</a>
+                    <a href="#">Fibra</a>
+                    <a href="#">Fibra Esponja</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">GUANTES</a></h4>
+                    <a href="#">Cocina</a>
+                    <a href="#">Lavandería</a>
+                    <a href="#">Multiusos</a>
+                    <a href="#">Trabajo Pesado</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">PAÑOS</a></h4>
+                    <a href="#">Absorbentes</a>
+                    <a href="#">Antibacterial</a>
+                    <a href="#">Microfibra</a>
+                    <a href="#">Multi-Usos</a>
+                    <a href="#">Reutilizable</a>
+                    <a href="#">Secatodo</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-cuidado-ropa" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('limpieza')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Cuidado de la ropa</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">DETERGENTES Y JABONES</a></h4>
+                    <a href="#">Líquido</a>
+                    <a href="#">Polvo</a>
+                    <a href="#">Jabón en Barra</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">QUITAMANCHAS Y SUAVIZANTES</a></h4>
+                    <a href="#">Quitamanchas Gel</a>
+                    <a href="#">Quitamanchas Líquido</a>
+                    <a href="#">Quitamanchas Polvo</a>
+                    <a href="#">Suavizante Líquido</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-limpieza-general" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('limpieza')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Limpieza General</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">AROMATIZANTES E INSECTICIDAS</a></h4>
+                    <a href="#">Aerosol (Aroma)</a>
+                    <a href="#">Insecticida Aerosol</a>
+                    <a href="#">Insecticida Zancudos</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">CERAS Y LUSTRAMUEBLES</a></h4>
+                    <a href="#">Autobrillante</a>
+                    <a href="#">Pasta</a>
+                    <a href="#">Lustramueble</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">DESINFECTANTES Y LEJÍAS</a></h4>
+                    <a href="#">Desinfectantes</a>
+                    <a href="#">Limpiador</a>
+                    <a href="#">Lejías</a>
+                    <a href="#">Químicos</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">LAVAVAJILLAS</a></h4>
+                    <a href="#">Líquido</a>
+                    <a href="#">Pasta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+
+<li class="has-submenu">
+    <a href="categoria-papeleria.html">PAPELERÍA</a>
+    
+    <div class="submenu-panel">
+        <div id="vista-lista-papeleria" class="vista-activa">
+            <div class="submenu-header">
+                <h2>PAPELERÍA</h2>
+            </div>
+            <ul class="sidebar-menu sub-menu-lista">
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('papeleria-hogar')">Papelería del Hogar</a></li>
+                <li><a href="javascript:void(0)" onclick="mostrarCuadricula('papeleria-institucional')">Papelería Institucional</a></li>
+            </ul>
+        </div>
+
+        <div id="vista-cuadricula-papeleria-hogar" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('papeleria')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Papelería del Hogar</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">PAPEL HIGIÉNICO</a></h4>
+                    <a href="#">Doble hoja</a>
+                    <a href="#">Industrial</a>
+                    <a href="#">Liso</a>
+                    <a href="#">Triple Hoja</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">PAPEL TOALLA</a></h4>
+                    <a href="#">Descartable</a>
+                    <a href="#">Multiusos</a>
+                    <a href="#">Rollazo</a>
+                </div>
+                <div class="submenu-column">
+                    <h4><a href="#">SERVILLETAS</a></h4>
+                    <a href="#">Cortada</a>
+                    <a href="#">Doblada</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="vista-cuadricula-papeleria-institucional" class="vista-oculta">
+            <div class="submenu-header">
+                <button class="btn-volver" onclick="volverLista('papeleria')">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    Volver
+                </button>
+                <h2>Papelería Institucional</h2>
+            </div>
+            <div class="submenu-content">
+                <div class="submenu-column">
+                    <h4><a href="#">INDUSTRIAL</a></h4>
+                    <a href="#">Papel toalla industrial</a>
+                    <a href="#">Servilleta industrial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+        </ul>
+    </div>
+
+    <header class="header">
+        <div class="header-container">
+            
+            <div class="logo-container">
+                <a href="index.html">
+                <img src="imagenes/TCALOGOINICIO.png" alt="Logo TCA" class="logo">
+                </a>
+            </div>
+            
+            <div class="nav-wrapper">
+                <button id="menu-toggle" class="menu-toggle">
+                    <svg viewBox="0 0 100 80" width="24" height="24" fill="currentColor">
+                        <rect width="100" height="15" rx="8"></rect>
+                        <rect y="30" width="100" height="15" rx="8"></rect>
+                        <rect y="60" width="100" height="15" rx="8"></rect>
+                    </svg>
+                </button>
+
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="marcas.html">MARCAS</a></li>
+                        <li><a href="nosotros.html">NOSOTROS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="">
+                <button class="search-btn">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> > <span>Alimentos</span> > <span>Abarrotes</span> > <span>Granos y Menestras</span> > <strong>LENTEJAS</strong>
+        </div>
+
+        <h1 class="titulo-pagina-categoria">LENTEJAS</h1>
+        <p class="subtitulo-categoria">Conoce las marcas de excelente calidad con las que trabajamos.</p>
+
+        <section class="seccion-marcas-destacadas">
+            <div class="caja-marcas">
+                <h2>NUESTRAS MARCAS</h2>
+                <div class="grilla-marcas-tres">
+
+                    <div class="espacio-logo">
+                        <img src="imagenes/laparcela.png" alt="Marca LA PARCELA">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<section class="seccion-carrusel-limpio">
+    <div class="caja-carrusel-gris centrar-dos-items">
+        <div class="carrusel-deslizable">
+            <div class="item-producto-simple" onclick="abrirModalProducto('imagenes/111461.png', 'LENTEJA BEBE', 'Descubre todas nuestras presentaciones')">
+                <img src="imagenes/111461.png" alt="LENTEJA BEBE">
+                <span>LENTEJA BEBE<P>LA PARCELA</P></span>
+            </div>
+            <div class="item-producto-simple" onclick="abrirModalProducto('imagenes/111462.png', 'LENTEJA', 'Descubre todas nuestras presentaciones')">
+                <img src="imagenes/111462.png" alt="LENTEJA">
+                <span>LENTEJA<P>LA PARCELA</P></span>
+            </div>
+        </div>
+    </div>
+</section>
+ <section class="seccion-cta-final">
+            <div class="caja-cta-roja animacion-oculta">
+                
+                <div class="cta-textos">
+                    <p class="texto-cta">Descubre todas las <strong>novedades</strong> para ti y tu negocio</p>
+                    <p class="texto-cta">Conoce todas nuestras <strong>líneas de producto</strong></p>
+                </div>
+
+                <div class="cta-botones">
+                    <button class="btn-cta-cotizar" onclick="abrirFormularioSticky()">COTIZAR</button>
+                    
+                    <button class="btn-cta-catalogo" onclick="abrirModalCatalogo()">
+                        <div class="texto-btn-cat">
+                            <span>CONOCE NUESTRO</span>
+                            <strong>CATÁLOGO</strong>
+                        </div>
+                        <svg class="icono-descarga-nuevo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="8 12 12 16 16 12"></polyline>
+                            <line x1="12" y1="8" x2="12" y2="16"></line>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </section> 
+    </div>
+
+           <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p class="footer-contacto"><strong>CONTÁCTANOS</strong> 5555555-5555</p>
+                <div class="footer-redes">
+                    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <div class="correo-info">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <span>atencionalcliente@tca.com.pe</span>
+                    </div>
+                </div>
+                <p class="texto-ofertas">¡Regístrate para recibir nuestras mejores <strong>ofertas y regalos!</strong></p>
+                <form class="form-suscripcion">
+                    <input type="email" placeholder="TuNegocio@nosimporta.com" required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+
+            <div class="footer-right">
+                <a href="#" class="libro-reclamaciones">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    <span>LIBRO DE<br>RECLAMACIONES</span>
+                </a>
+                <a href="nosotros.html" class="enlace-nosotros">Conoce sobre nosotros</a>
+            </div>
+ </div>
+    </footer>
+    <div class="sticky-footer">
+        <div class="footer-content">
+       <div class="footer-text">
+    <h2 class="texto-arriba">¡Únete a nuestra comunidad para recibir</h2>
+    <h2 class="texto-abajo"><span>OFERTAS Y DESCUENTOS ÚNICOS</span> </h2>
+</div>
+            <div class="footer-action">
+                <button class="action-btn" onclick="abrirFormularioSticky()">INGRESA AQUÍ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <a href="https://wa.me/5199999999" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chatea con nosotros">
+<svg viewBox="0 0 16 16" width="35" height="35" fill="currentColor">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+    </a>
+    <script>
+        // Funciones para el formulario del anuncio sticky
+        function abrirFormularioSticky() {
+            document.getElementById('modal-sticky').classList.add('mostrar');
+        }
+
+        function cerrarFormularioSticky() {
+            document.getElementById('modal-sticky').classList.remove('mostrar');
+        }
+        // Función para entrar a una categoría (Ej: De Alimentos -> Abarrotes)
+        function mostrarCuadricula(categoriaId) {
+            // Ocultamos la lista principal
+            const vistasActivas = document.querySelectorAll('.submenu-panel .vista-activa');
+            vistasActivas.forEach(elemento => {
+                elemento.classList.remove('vista-activa');
+                elemento.classList.add('vista-oculta');
+            });
+            
+            // Mostramos la cuadrícula seleccionada
+            const cuadriculaDestino = document.getElementById('vista-cuadricula-' + categoriaId);
+            if(cuadriculaDestino) {
+                cuadriculaDestino.classList.remove('vista-oculta');
+                cuadriculaDestino.classList.add('vista-activa');
+            }
+        }
+
+        function volverLista(menuPrincipalId) {
+            // Ocultamos cualquier cuadrícula abierta
+            const elementosPanel = document.querySelectorAll('.submenu-panel > div');
+            elementosPanel.forEach(elemento => {
+                elemento.classList.remove('vista-activa');
+                elemento.classList.add('vista-oculta');
+            });
+
+            // Mostramos la lista original
+            const listaOriginal = document.getElementById('vista-lista-' + menuPrincipalId);
+            if(listaOriginal) {
+                listaOriginal.classList.remove('vista-oculta');
+                listaOriginal.classList.add('vista-activa');
+            }
+        }
+    </script>
+    <div id="modal-sticky" class="modal-oculto">
+        <div class="modal-contenido">
+            <button class="modal-cerrar" onclick="cerrarFormularioSticky()">×</button>
+            <div class="modal-header">
+                <h3>¡Únete a Distribuidora TCA!</h3>
+                <p>Rellena tus datos y un asesor se comunicará contigo al instante.</p>
+            </div>
+            <form class="formulario-contacto">
+                <div class="input-group">
+                    <label>RUC / Tu nombre</label>
+                    <input type="text" placeholder="Ej. Bodega Costa" required>
+                </div>
+                <div class="input-group">
+                    <label>Correo electronico</label>
+                    <input type="text" placeholder="Ej. Bodega@gmail.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Celular / WhatsApp</label>
+                    <input type="tel" placeholder="Ej. 999 999 999" required>
+                </div>
+                <button type="button" class="btn-enviar-modal">SOLICITAR CONTACTO</button>
+            </form>
+        </div>
+    </div>
+    <div id="modal-producto-frente" class="modal-oculto-producto">
+        <div class="modal-contenido-producto">
+            <button class="modal-cerrar-producto" onclick="cerrarModalProducto()">×</button>
+            <div class="fondo-img-producto">
+                <img id="img-zoom-producto" src="" alt="Producto Seleccionado">
+            </div>
+            <h3 id="titulo-zoom-producto">Nombre del Producto</h3>
+            <p id="detalle-zoom-producto">Detalle de formato</p>
+            
+            <button class="btn-cotizar-modal-producto" onclick="cerrarModalProducto(); abrirFormularioSticky();">COTIZA CON NOSOTROS</button>
+        </div>
+    </div>
+    <div id="modal-catalogo-secreto" class="modal-producto"> <div class="caja-modal-catalogo">
+        <span class="cerrar-modal" onclick="cerrarModalCatalogo()">&times;</span>
+        <h3 class="titulo-modal-cat">Acceso a Catálogo</h3>
+        <p class="desc-modal-cat">Ingresa tu código de cliente corporativo para habilitar la descarga.</p>
+        
+        <input type="text" id="input-codigo-cliente" placeholder="Ej: TCA-1234" autocomplete="off">
+        <p id="mensaje-error-codigo" style="color: red; font-size: 13px; display: none; margin-top: 5px;">Código inválido. Intenta de nuevo.</p>
+        
+        <button class="btn-validar-descarga" onclick="validarCodigoCatalogo()">Validar Código</button>
+    </div>
+</div>
+</body>
+</html>

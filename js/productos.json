@@ -1,0 +1,1561 @@
+{
+    "harina-preparada": {
+        "marcas": [
+            {
+                "nombre": "BLANCA FLOR",
+                "logo": "imagenes/blancaflor.jpg"
+            },
+            {
+                "nombre": "MOLITALIA",
+                "logo": "imagenes/molitalialogo.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "HARINA PREPARADA",
+                "marca": "BLANCA FLOR",
+                "imagen": "imagenes/079365.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 2,
+                "nombre": "HARINA PREPARADA",
+                "marca": "MOLITALIA",
+                "imagen": "imagenes/079002.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            }
+        ]
+    },
+    "aceitunas-negras": {
+        "ruta": "Alimentos > Abarrotes > Aceitunas", 
+        "marcas": [
+            {
+                "nombre": "ACAVILLE",
+                "logo": "imagenes/acaville.png"
+            },
+            {
+                "nombre": "EL OLIVAR",
+                "logo": "imagenes/elolivarpng.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 5,
+                "nombre": "ACEITUNAS PREMIUM NEGRAS SIN PEPA",
+                "marca": "EL OLIVAR",
+                "imagen": "imagenes/aceituna negra sin pepa ELOLIVAR.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 6,
+                "nombre": "ACEITUNAS NEGRAS SIN PEPA",
+                "marca": "ACAVILLE",
+                "imagen": "imagenes/aceitunanegraacaville.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            }
+        ]
+},
+"aceites-clasicos": {
+        "ruta": "Alimentos > Abarrotes",
+        "nombre": "ACEITES CLÁSICOS",
+        "marcas": [
+            {
+                "nombre": "PAM",
+                "logo": "imagenes/PAM.png"
+            },
+            {
+                "nombre": "Delisoya",
+                "logo": "imagenes/delisoyalogo.png"
+            },
+            {
+                "nombre": "Mirasol",
+                "logo": "imagenes/mirasol.png"
+            },
+            {
+                "nombre": "Sao",
+                "logo": "imagenes/SAO.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 7,
+                "nombre": "ACEITE DE OLIVA EXTRA VIRGEN EL OLIVAR",
+                "marca": "EL OLIVAR",
+                "imagen": "imagenes/pamspry.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 8,
+                "nombre": "ACEITE DE OLIVA ACAVILLE",
+                "marca": "ACAVILLE",
+                "imagen": "imagenes/delisoyabotella.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 9,
+                "nombre": "ACEITE MIRASOL", 
+                "marca": "MIRASOL",
+                "imagen": "imagenes/mirasolbotella.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 10,
+                "nombre": "ACEITE MIRASOL MINI",
+                "marca": "MIRASOL",
+                "imagen": "imagenes/mirasolmini.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 11,
+                "nombre": "ACEITE SAO",
+                "marca": "SAO",
+                "imagen": "imagenes/acitesao.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            }
+        ]
+    },
+"aceitunas-verdes": {
+        "ruta": "Alimentos > Abarrotes > Aceitunas",
+        "marcas": [
+            {
+                "nombre": "ACAVILLE",
+                "logo": "imagenes/acaville.png"
+            },
+            {
+                "nombre": "EL OLIVAR",
+                "logo": "imagenes/elolivarpng.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 12,
+                "nombre": "ACEITUNAS PREMIUM VERDES SIN PEPAS",
+                "marca": "EL OLIVAR",
+                "imagen": "imagenes/aceitunaverdepElolivar.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 13,
+                "nombre": "ACEITUNAS VERDE CON PIMIENTO",
+                "marca": "ACAVILLE",
+                "imagen": "imagenes/aceitunasverdespimientos200.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 14,
+                "nombre": "ACEITUNAS VERDES CON ROCOTO",
+                "marca": "ACAVILLE",
+                "imagen": "imagenes/854003.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 15,
+                "nombre": "ACEITUNAS VERDES SIN PEPAS",
+                "marca": "ACAVILLE",
+                "imagen": "imagenes/854004.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            }
+        ]
+},
+"conservas-alimentos": {
+        "ruta": "Alimentos > Abarrotes",
+        "nombre": "CONSERVAS DE ALIMENTOS",
+        "marcas": [
+            {
+                "nombre": "OLIVOS DEL SUR",
+                "logo": "imagenes/olivospng.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 16,
+                "nombre": "CHAMPIÑONES ENTEROS",
+                "marca": "OLIVOS DEL SUR",
+                "imagen": "imagenes/029A05.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 17,
+                "nombre": "FRIJOLES CON TOCINO",
+                "marca": "OLIVOS DEL SUR",
+                "imagen": "imagenes/029A08-removebg-preview.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 18,
+                "nombre": "GARBANZOS CON TOCINO",
+                "marca": "OLIVOS DEL SUR",
+                "imagen": "imagenes/029A09-removebg-preview.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 19,
+                "nombre": "PALLARES CON TOCINO",
+                "marca": "OLIVOS DEL SUR",
+                "imagen": "imagenes/029A10-removebg-preview.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            },
+            {
+                "id": 20,
+                "nombre": "CHOCLO DULCE DESGRANADO",
+                "marca": "OLIVOS DEL SUR",
+                "imagen": "imagenes/029A11-removebg-preview.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+}
+        ]
+    }, 
+    "arroz-anejo-superior": {
+        "ruta": "Alimentos > Abarrotes > Arroz",
+        "nombre": "ARROZ AÑEJO SUPERIOR",
+        "marcas": [
+            {
+                "nombre": "INKARROZ",
+                "logo": "imagenes/inkarroz logo.png"
+            }
+        ],
+        "productos": [
+            {
+                "id": 21,
+                "nombre": "ARROZ PREMIUM EXTRA AÑEJO",
+                "marca": "INKARROZ",
+                "imagen": "imagenes/042822.png",
+                "descripcion": "Descubre todas nuestras presentaciones"
+            }
+        ]
+    },
+    "arverjas": {
+        "ruta": "Alimentos > Abarrotes > Granos y Menestras",
+    "nombre": "ARVERJAS",
+    "marcas": [
+        {
+            "nombre": "LA PARCELA",
+            "logo": "imagenes/laparcela.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 22,
+            "nombre": "ARVEJA PARTIDA",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111459.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"galletas-banadas": {
+    "ruta": "Alimentos > Dulces y Postres > Galletas",
+    "nombre": "BAÑADAS",
+    "marcas": [
+        {
+            "nombre": "COSTA",
+            "logo": "imagenes/COSTA.png"
+        },
+        {
+            "nombre": "VICTORIA",
+            "logo": "imagenes/VICTORIA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 1000002,
+            "nombre": "CARITAS",
+            "marca": "COSTA",
+            "imagen": "imagenes/062A23.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 8764534233,
+            "nombre": "CHOCODONUTS BLANCO",
+            "marca": "COSTA",
+            "imagen": "imagenes/062567.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 98765484,
+            "nombre": "CHOCODONUTS LECHE",
+            "marca": "COSTA",
+            "imagen": "imagenes/062148.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 8876545,
+            "nombre": "CHOCO BUM GALLETA CHOCOLATE",
+            "marca": "VICTORIA",
+            "imagen": "imagenes/062994.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 89876546,
+            "nombre": "CHOCO BUM POP GALLETA CHOCOLATE",
+            "marca": "VICTORIA",
+            "imagen": "imagenes/062995.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"chuno": {
+    "ruta": "Alimentos > Abarrotes > Harinas Especiales",
+    "nombre": "CHUÑO",
+    "marcas": [
+        {
+            "nombre": "UMSHA",
+            "logo": "imagenes/umsha.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 24,
+            "nombre": "CHUÑO",
+            "marca": "UMSHA",
+            "imagen": "imagenes/257007.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"conservas-bonito": {
+    "ruta": "Alimentos > Abarrotes > Conservas Marinas",
+    "nombre": "CONSERVAS DE BONITO",
+    "marcas": [
+        {
+            "nombre": "CAMPOMAR",
+            "logo": "imagenes/campomarlogo.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 25,
+            "nombre": "FILETE DE BONITO EN ACEITE VEGETAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/228A14.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"conservas-atun": {
+    "ruta": "Alimentos > Abarrotes > Conservas Marinas",
+    "nombre": "CONSERVAS DE ATÚN",
+    "marcas": [
+        {
+            "nombre": "CAMPOMAR",
+            "logo": "imagenes/campomarlogo.png"
+        },
+        {
+            "nombre": "FANNY",
+            "logo": "imagenes/fannylogo.webp"
+        },
+        {
+            "nombre": "FLORIDA",
+            "logo": "imagenes/floridalogo1.jpg"
+        },
+        {
+            "nombre": "REAL",
+            "logo": "imagenes/reallogo.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 26,
+            "nombre": "FILETE DE ATÚN ARTESANAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/029085.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 27,
+            "nombre": "FILETE DE ATÚN EN ACEITE VEGETAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/228A08.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 28,
+            "nombre": "TROCITOS DE ATÚN EN ACEITE VEGETAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/228A13.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 29,
+            "nombre": "FILETE DE ATÚN CON ACEITE VEGETAL",
+            "marca": "FANNY",
+            "imagen": "imagenes/228997F.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 30,
+            "nombre": "GRATED DE ATÚN EN AGUA Y SAL",
+            "marca": "FANNY",
+            "imagen": "imagenes/029023.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 31,
+            "nombre": "FILETE DE ATÚN EN ACEITE DE GIRASOL",
+            "marca": "FLORIDA",
+            "imagen": "imagenes/029147.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 32,
+            "nombre": "FILETE DE ATÚN EN AGUA Y SAL",
+            "marca": "FLORIDA",
+            "imagen": "imagenes/228016.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 33,
+            "nombre": "SOLIDO DE ATÚN EN ACEITE VEGETAL",
+            "marca": "FLORIDA",
+            "imagen": "imagenes/029232.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 34,
+            "nombre": "FILETE DE ATUN EN ACEITE DE GIRASOL",
+            "marca": "REAL",
+            "imagen": "imagenes/029110f.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 35,
+            "nombre": "FILETE DE ATUN EN AGUA SIN SAL",
+            "marca": "REAL",
+            "imagen": "imagenes/029A13f.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"conservas-caballa": {
+    "ruta": "Alimentos > Abarrotes > Conservas Marinas",
+    "nombre": "CONSERVAS DE CABALLA",
+    "marcas": [
+        {
+            "nombre": "CAMPOMAR",
+            "logo": "imagenes/campomarlogo.png"
+        },
+        {
+            "nombre": "LA CAPITANA",
+            "logo": "imagenes/LACAPITANA.jpg"
+        }
+    ],
+    "productos": [
+        {
+            "id": 36,
+            "nombre": "SÓLIDO DE CABALLA EN ACEITE VEGETAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/029108F.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 37,
+            "nombre": "FILETE DE CABALLA EN ACEITE",
+            "marca": "LA CAPITANA",
+            "imagen": "imagenes/228A20.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"conservas-jurel": {
+    "ruta": "Alimentos > Abarrotes > Conservas Marinas",
+    "nombre": "CONSERVAS DE JUREL",
+    "marcas": [
+        {
+            "nombre": "CAMPOMAR",
+            "logo": "imagenes/campomarlogo.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 38,
+            "nombre": "TROZOS DE JUREL EN ACEITE VEGETAL",
+            "marca": "CAMPOMAR",
+            "imagen": "imagenes/029152-removebg-preview.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"endulzantes-refinados": {
+    "ruta": "Alimentos > Abarrotes > Azúcar y Endulzantes",
+    "nombre": "ENDULZANTES REFINADOS",
+    "marcas": [
+        {
+            "nombre": "DULFINA",
+            "logo": "imagenes/dulfinapng.png"
+        },
+        {
+            "nombre": "PARAMONGA",
+            "logo": "imagenes/paramongapng.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 39,
+            "nombre": "AZÚCAR RUBIA DULFINA",
+            "marca": "DULFINA",
+            "imagen": "imagenes/dulfinarubia.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 40,
+            "nombre": "AZÚCAR BLANCA DULFINA",
+            "marca": "DULFINA",
+            "imagen": "imagenes/dulfinablanca.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 41,
+            "nombre": "AZÚCAR RUBIA PARAMONGA",
+            "marca": "PARAMONGA",
+            "imagen": "imagenes/paramongrubia.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 42,
+            "nombre": "AZÚCAR BLANCA PARAMONGA",
+            "marca": "PARAMONGA",
+            "imagen": "imagenes/reemplazo.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"frijoles": {
+    "ruta": "Alimentos > Abarrotes > Granos y Menestras",
+    "nombre": "FRIJOLES",
+    "marcas": [
+        {
+            "nombre": "LA PARCELA",
+            "logo": "imagenes/laparcela.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 43,
+            "nombre": "FRIJOL CANARIO",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111460.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"maiz-pop-corn": {
+    "ruta": "Alimentos > Abarrotes > Granos y Menestras",
+    "nombre": "MAÍZ POP CORN",
+    "marcas": [
+        {
+            "nombre": "LA PARCELA",
+            "logo": "imagenes/laparcela.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 44,
+            "nombre": "MAÍZ POP CORN",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111463.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"habas-tostadas": {
+    "ruta": "Alimentos > Abarrotes > Harinas Especiales",
+    "nombre": "HABAS TOSTADAS",
+    "marcas": [
+        {
+            "nombre": "INCASUR",
+            "logo": "imagenes/INCASUR.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 45,
+            "nombre": "CREMA DE HABAS TOSTADAS",
+            "marca": "INCASUR",
+            "imagen": "imagenes/103045.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"conservas-fruta": {
+    "ruta": "Alimentos > Abarrotes > Frutas en Conserva",
+    "nombre": "CONSERVAS DE FRUTA",
+    "marcas": [
+        {
+            "nombre": "ACONCAGUA",
+            "logo": "imagenes/aconcagua.png"
+        },
+        {
+            "nombre": "COMPASS",
+            "logo": "imagenes/compass.jpg"
+        },
+        {
+            "nombre": "FANNY",
+            "logo": "imagenes/fannylogo.webp"
+        },
+        {
+            "nombre": "GRAN DANUBIO",
+            "logo": "imagenes/grandanubio.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 46,
+            "nombre": "COCKTAIL DE FRUTA",
+            "marca": "ACONCAGUA",
+            "imagen": "imagenes/029159-remove.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 47,
+            "nombre": "DURAZNO EN MITADES",
+            "marca": "ACONCAGUA",
+            "imagen": "imagenes/029300-removebg-preview.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 48,
+            "nombre": "DURAZNO EN MITADES",
+            "marca": "COMPASS",
+            "imagen": "imagenes/029100-removebg-preview.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 49,
+            "nombre": "PIÑA EN RODAJAS",
+            "marca": "COMPASS",
+            "imagen": "imagenes/029645.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 50,
+            "nombre": "COCKTAIL DE FRUTAS",
+            "marca": "FANNY",
+            "imagen": "imagenes/029236.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 51,
+            "nombre": "DURAZNO",
+            "marca": "FANNY",
+            "imagen": "imagenes/029345.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 52,
+            "nombre": "PIÑA EN RODAJAS",
+            "marca": "FANNY",
+            "imagen": "imagenes/029355.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 53,
+            "nombre": "DURAZNO EN MITADES (G)",
+            "marca": "GRAN DANUBIO",
+            "imagen": "imagenes/029133.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 54,
+            "nombre": "DURAZNO EN MITADES (P)",
+            "marca": "GRAN DANUBIO",
+            "imagen": "imagenes/029158.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"lentejas": {
+    "ruta": "Alimentos > Abarrotes > Granos y Menestras",
+    "nombre": "LENTEJAS",
+    "marcas": [
+        {
+            "nombre": "LA PARCELA",
+            "logo": "imagenes/laparcela.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 55,
+            "nombre": "LENTEJA BEBE",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111461.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 56,
+            "nombre": "LENTEJA",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111462.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"quinua": {
+    "ruta": "Alimentos > Abarrotes > Granos y Menestras",
+    "nombre": "QUINUA",
+    "marcas": [
+        {
+            "nombre": "INCASUR",
+            "logo": "imagenes/INCASUR.png"
+        },
+        {
+            "nombre": "LA PARCELA",
+            "logo": "imagenes/laparcela.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 57,
+            "nombre": "QUINUA PERLADA SELECTA",
+            "marca": "INCASUR",
+            "imagen": "imagenes/103642.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 58,
+            "nombre": "QUINUA",
+            "marca": "LA PARCELA",
+            "imagen": "imagenes/111464.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"maicena": {
+    "ruta": "Alimentos > Abarrotes > Harinas Especiales",
+    "nombre": "MAICENA",
+    "marcas": [
+        {
+            "nombre": "UMSHA",
+            "logo": "imagenes/umsha.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 59,
+            "nombre": "MAICENA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/257009.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"semola": {
+    "ruta": "Alimentos > Abarrotes > Harinas Especiales",
+    "nombre": "SÉMOLA",
+    "marcas": [
+        {
+            "nombre": "MOLITALIA",
+            "logo": "imagenes/molitalialogo.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 60,
+            "nombre": "SÉMOLA",
+            "marca": "MOLITALIA",
+            "imagen": "imagenes/080002.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"harina-sin-preparar": {
+    "ruta": "Alimentos > Abarrotes > Harinas Tradicionales",
+    "nombre": "SIN PREPARAR",
+    "marcas": [
+        {
+            "nombre": "BLANCA FLOR",
+            "logo": "imagenes/blancaflor.jpg"
+        },
+        {
+            "nombre": "FAVORITA",
+            "logo": "imagenes/Favorita.webp"
+        },
+        {
+            "nombre": "MOLITALIA",
+            "logo": "imagenes/molitalialogo.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 61,
+            "nombre": "HARINA SIN PREPARAR",
+            "marca": "BLANCA FLOR",
+            "imagen": "imagenes/079366.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 62,
+            "nombre": "HARINA SIN PREPARAR (1kg)",
+            "marca": "FAVORITA",
+            "imagen": "imagenes/079367.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 63,
+            "nombre": "HARINA SIN PREPARAR (Granel)",
+            "marca": "FAVORITA",
+            "imagen": "imagenes/079364.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 64,
+            "nombre": "HARINA SIN PREPARAR (Premium)",
+            "marca": "MOLITALIA",
+            "imagen": "imagenes/079361.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 65,
+            "nombre": "HARINA SIN PREPARAR",
+            "marca": "MOLITALIA",
+            "imagen": "imagenes/079004.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"compotas-fruta": {
+    "ruta": "Alimentos > Dulces y Postres > Compotas",
+    "nombre": "COMPOTAS DE FRUTA",
+    "marcas": [
+        {
+            "nombre": "AMA",
+            "logo": "imagenes/AMA.webp"
+        }
+    ],
+    "productos": [
+        {
+            "id": 66,
+            "nombre": "PURÉ DE FRUTAS MANZANA FLEX",
+            "marca": "AMA",
+            "imagen": "imagenes/082279.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 67,
+            "nombre": "PURE DE FRUTAS MANZANA-DURAZNO FLEX",
+            "marca": "AMA",
+            "imagen": "imagenes/082282.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 68,
+            "nombre": "PURE DE FRUTAS MANZANA-MANGO FLEX",
+            "marca": "AMA",
+            "imagen": "imagenes/082281.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 69,
+            "nombre": "PURE DE FRUTAS MANZANA-PLATANO FLEX",
+            "marca": "AMA",
+            "imagen": "imagenes/082280.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"pure-de-papa": {
+    "ruta": "Alimentos > Abarrotes > Alimentos Instantáneos",
+    "nombre": "PURÉ DE PAPA",
+    "marcas": [
+        {
+            "nombre": "NICOLINI",
+            "logo": "imagenes/Nicolini.webp"
+        }
+    ],
+    "productos": [
+        {
+            "id": 70,
+            "nombre": "PURÉ DE PAPA",
+            "marca": "NICOLINI",
+            "imagen": "imagenes/932001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},"galletas-planas": {
+    "ruta": "Alimentos > Dulces y Postres > Galletas",
+    "nombre": "PLANAS",
+    "marcas": [
+        {
+            "nombre": "INCASUR",
+            "logo": "imagenes/INCASUR.png"
+        },
+        {
+            "nombre": "SAN JORGE",
+            "logo": "imagenes/sanjorge.png"
+        },
+        {
+            "nombre": "COSTA",
+            "logo": "imagenes/COSTA.png"
+        },
+        {
+            "nombre": "SAYON",
+            "logo": "imagenes/Sayon.webp"
+        },
+        {
+            "nombre": "VICTORIA",
+            "logo": "imagenes/VICTORIA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 71,
+            "nombre": "GALLETAS CON QUINUA Y NARANJA",
+            "marca": "INCASUR",
+            "imagen": "imagenes/103710.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 72,
+            "nombre": "GALLETAS CON QUINUA Y CHISPAS DE CHOCOLATE",
+            "marca": "INCASUR",
+            "imagen": "imagenes/103706.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 73,
+            "nombre": "GALLETA ANIMALITOS",
+            "marca": "SAN JORGE",
+            "imagen": "imagenes/062924.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 74,
+            "nombre": "GALLETA VAINILLA",
+            "marca": "COSTA",
+            "imagen": "imagenes/062056.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 75,
+            "nombre": "GALLETA MARGARITA",
+            "marca": "SAYON",
+            "imagen": "imagenes/062A26.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 76,
+            "nombre": "GALLETA CHOMP DE NARANJA",
+            "marca": "VICTORIA",
+            "imagen": "imagenes/062988.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 77,
+            "nombre": "GALLETA CHOMP DE CHOCOLATE",
+            "marca": "VICTORIA",
+            "imagen": "imagenes/062987.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 78,
+            "nombre": "GALLETA COCONUT",
+            "marca": "SAN JORGE",
+            "imagen": "imagenes/062111.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 79,
+            "nombre": "CHIPS CHOCOLATE",
+            "marca": "COSTA",
+            "imagen": "imagenes/062564.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"jamones-untables-y-pate": {
+    "ruta": "Alimentos > Desayunos > Fiambres",
+    "nombre": "FIAMBRES",
+    "marcas": [
+        {
+            "nombre": "DUW",
+            "logo": "imagenes/DUW.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 80, 
+            "nombre": "JAMON ENDIABLADO PARA UNTAR LATA 115gr",
+            "marca": "DUW",
+            "imagen": "imagenes/933002.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 81,
+            "nombre": "JAMON ENDIABLADO PARA UNTAR LATA 54gr",
+            "marca": "DUW",
+            "imagen": "imagenes/933001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"infusiones-funcional": {
+    "ruta": "Alimentos > Desayunos > Infusiones",
+    "nombre": "FUNCIONAL",
+    "marcas": [
+        {
+            "nombre": "HERBI",
+            "logo": "imagenes/herbi.png"
+        },
+        {
+            "nombre": "McColins",
+            "logo": "imagenes/mccolins.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 82, 
+            "nombre": "GRIPAL-TÉ",
+            "marca": "HERBI",
+            "imagen": "imagenes/040892.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 83, 
+            "nombre": "DIGES-TÉ",
+            "marca": "HERBI",
+            "imagen": "imagenes/040001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+      {
+            "id": 84, 
+            "nombre": "NOMBRE DEL PRODUCTO 1",
+            "marca": "HERBI",
+            "imagen": "imagenes/040102.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                      {
+            "id": 85, 
+            "nombre": "BUENOS SUEÑOS",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040916.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                      {
+            "id": 86, 
+            "nombre": "DIGESTIVO",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040915.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 87, 
+            "nombre": "FLOR DE JAMAICA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040920.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                      {
+            "id": 88, 
+            "nombre": "FRESA MANGO",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040925.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                      {
+            "id": 89, 
+            "nombre": "KIÓN Y CÚRCUMA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040921.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 90,
+            "nombre": "RELAJANTE",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040917.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"infusiones-tradicional": {
+    "ruta": "Alimentos > Desayunos > Infusiones",
+    "nombre": "TRADICIONAL",
+    "marcas": [
+        {
+            "nombre": "HERBI",
+            "logo": "imagenes/herbi.png"
+        },
+                {
+            "nombre": "MCCOLINS",
+            "logo": "imagenes/mccolins.png"
+        },
+                {
+            "nombre": "HORNIMANS",
+            "logo": "imagenes/hornimans.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 91, 
+            "nombre": "ANÍS",
+            "marca": "HERBI",
+            "imagen": "imagenes/040024.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+         {
+            "id": 92, 
+            "nombre": "BOLDO PURO",
+            "marca": "HERBI",
+            "imagen": "imagenes/040030.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 93, 
+            "nombre": "MATE DE COCA",
+            "marca": "HERBI",
+            "imagen": "imagenes/040002.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 94, 
+            "nombre": "TÉ PURO",
+            "marca": "HERBI",
+            "imagen": "imagenes/040029.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 95, 
+            "nombre": "SURTIDO DE INFUSIONES",
+            "marca": "HORNIMANS",
+            "imagen": "imagenes/040923.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 96, 
+            "nombre": "TÉ CANELA Y CLAVO",
+            "marca": "HORNIMANS",
+            "imagen": "imagenes/040912.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 97, 
+            "nombre": "HIERBA LUISA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040900.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 98, 
+            "nombre": "MANZANILLA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040898.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 99, 
+            "nombre": "PACK SURTIDO",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040911.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 100, 
+            "nombre": "MENTA Y MUÑA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040919.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 101, 
+            "nombre": "TÉ SABOR NARANJA",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040907.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 102, 
+            "nombre": "TÉ VERDE",
+            "marca": "MCCOLINS",
+            "imagen": "imagenes/040914.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+
+    ]
+},
+"lacteos-alternativos": {
+    "ruta": "Alimentos > Desayunos > Lácteos Alternativos",
+    "nombre": "LECHES VEGETALES",
+    "marcas": [
+        {
+            "nombre": "OLIVOS DEL SUR",
+            "logo": "imagenes/olivospng.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 103, 
+            "nombre": "LECHE DE COCO ORGÁNICA",
+            "marca": "OLIVOS DEL SUR",
+            "imagen": "imagenes/257010.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"margarina": {
+    "ruta": "Alimentos > Desayunos > Lácteos y Derivados",
+    "nombre": "MARGARINA",
+    "marcas": [
+        {
+            "nombre": "NOMBREMARCA",
+            "logo": "imagenes/sellodeoro.png"
+        },
+                {
+            "nombre": "NOMBREMARCA",
+            "logo": "imagenes/manty.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 104, 
+            "nombre": "MARGARINA POTE MANTY 300g",
+            "marca": "MANTY",
+            "imagen": "imagenes/918027.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 105, 
+            "nombre": "MARGARINA POTE MANTY 90g",
+            "marca": "MANTY",
+            "imagen": "imagenes/918021.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 106, 
+            "nombre": "MARGARINA EN BARRA 200gr",
+            "marca": "SELLO DE ORO",
+            "imagen": "imagenes/918028.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 107, 
+            "nombre": "MARGARINA EN BARRA 90gr",
+            "marca": "SELLO DE ORO",
+            "imagen": "imagenes/918026.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 108, 
+            "nombre": "MARGARINA EN BARRA 45gr",
+            "marca": "SELLO DE ORO",
+            "imagen": "imagenes/918025.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 109, 
+            "nombre": "MARGARINA POTE SELLO DE ORO 400gr",
+            "marca": "SELLO DE ORO",
+            "imagen": "imagenes/918022.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+                {
+            "id": 110, 
+            "nombre": "MARGARINA POTE SELLO DE ORO 200gr",
+            "marca": "SELLO DE ORO",
+            "imagen": "imagenes/918023.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"mermeladas": {
+    "ruta": "Alimentos > Desayunos > Untables",
+    "nombre": "MERMELADAS",
+    "marcas": [
+        {
+            "nombre": "COMPASS",
+            "logo": "imagenes/compass.jpg"
+        },
+        {
+            "nombre": "FANNY",
+            "logo": "imagenes/fannylogo.webp"
+        }
+    ],
+    "productos": [
+        {
+            "id": 111,
+            "nombre": "MERMELADA DE FRESA",
+            "marca": "COMPASS",
+            "imagen": "imagenes/046014.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 112,
+            "nombre": "MERMELADA DE FRESA",
+            "marca": "COMPASS",
+            "imagen": "imagenes/046103.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 113,
+            "nombre": "MERMELADA DE NARANJA",
+            "marca": "COMPASS",
+            "imagen": "imagenes/046012.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 114,
+            "nombre": "MERMELADA DE PIÑA",
+            "marca": "COMPASS",
+            "imagen": "imagenes/046013.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 115,
+            "nombre": "MERMELADA DE SAUCO DULCERA",
+            "marca": "COMPASS",
+            "imagen": "imagenes/046016.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 116,
+            "nombre": "MERMELADA DELI FRESA BARRIL",
+            "marca": "FANNY",
+            "imagen": "imagenes/046350.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 117,
+            "nombre": "MERMELADA DELI FRESA DOYPACK",
+            "marca": "FANNY",
+            "imagen": "imagenes/046830.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 118,
+            "nombre": "MERMELADA DELI FRESA",
+            "marca": "FANNY",
+            "imagen": "imagenes/046815.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"crema-de-mani": {
+    "ruta": "Alimentos > Desayunos > Untables",
+    "nombre": "CREMAS",
+    "marcas": [
+        {
+            "nombre": "OLIVOS DEL SUR",
+            "logo": "imagenes/olivospng.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 119,
+            "nombre": "CREMA DE MANÍ FUNDELINA",
+            "marca": "OLIVOS DEL SUR",
+            "imagen": "imagenes/928003.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"barras-de-cereal": {
+    "ruta": "Alimentos > Dulces y Postres > Barras Energéticas",
+    "nombre": "BARRAS DE CEREAL",
+    "marcas": [
+        {
+            "nombre": "COSTA",
+            "logo": "imagenes/COSTA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 120,
+            "nombre": "CEREALBAR ARANDANOS",
+            "marca": "COSTA",
+            "imagen": "imagenes/064621.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 121,
+            "nombre": "CEREALBAR CHIPS",
+            "marca": "COSTA",
+            "imagen": "imagenes/064089.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 122,
+            "nombre": "CEREALBAR CHOCO",
+            "marca": "COSTA",
+            "imagen": "imagenes/064092.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 123,
+            "nombre": "CEREALBAR GOLDEN",
+            "marca": "COSTA",
+            "imagen": "imagenes/064093.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"bizcochos": {
+    "ruta": "Alimentos > Dulces y Postres > Bizcochos",
+    "nombre": "RELLENOS",
+    "marcas": [
+        {
+            "nombre": "COSTA",
+            "logo": "imagenes/COSTA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 124,
+            "nombre": "CANCUN BIZCOCHO",
+            "marca": "COSTA",
+            "imagen": "imagenes/066001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 125,
+            "nombre": "CARITAS BISCOCHO",
+            "marca": "COSTA",
+            "imagen": "imagenes/062A49.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 126,
+            "nombre": "CHOCMAN",
+            "marca": "COSTA",
+            "imagen": "imagenes/066570.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 127,
+            "nombre": "CHOCMAN BLACK",
+            "marca": "COSTA",
+            "imagen": "imagenes/066003.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 128,
+            "nombre": "CHOCMAN DOBLE BLACK",
+            "marca": "COSTA",
+            "imagen": "imagenes/066004.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 129,
+            "nombre": "CHOCMAN DOBLE MANJAR",
+            "marca": "COSTA",
+            "imagen": "imagenes/066608.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 130,
+            "nombre": "POKEKE",
+            "marca": "COSTA",
+            "imagen": "imagenes/066610.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"postres-instantaneos": {
+    "ruta": "Alimentos > Dulces y Postres > Postres",
+    "nombre": "POSTRES INSTANTÁNEOS",
+    "marcas": [
+        {
+            "nombre": "UMSHA",
+            "logo": "imagenes/UMSHA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 131,
+            "nombre": "FLAN VAINILLA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/180062.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 132,
+            "nombre": "GELATINA FRESA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/179669.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 133,
+            "nombre": "GELATINA NARANJA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/179670.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 134,
+            "nombre": "GELATINA PIÑA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/179671.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 135,
+            "nombre": "MAZAMORRA DURAZNO",
+            "marca": "UMSHA",
+            "imagen": "imagenes/212004.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 136,
+            "nombre": "MAZAMORRA MORADA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/212002.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 137,
+            "nombre": "MAZAMORRA PIÑA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/212003.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 138,
+            "nombre": "PUDIN SABOR CHOCOLATE",
+            "marca": "UMSHA",
+            "imagen": "imagenes/253004.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
+"reposteria": {
+    "ruta": "Alimentos > Dulces y Postres > Reposteria",
+    "nombre": "MEZCLAS Y REPOSTERIA",
+    "marcas": [
+        {
+            "nombre": "MOLITALIA",
+            "logo": "imagenes/molitalialogo.png"
+        },
+        {
+            "nombre": "UMSHA",
+            "logo": "imagenes/UMSHA.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 139,
+            "nombre": "PREMEZCLA KEKE VAINILLA",
+            "marca": "MOLITALIA",
+            "imagen": "imagenes/257003.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 140,
+            "nombre": "PREMEZCLA TORTA CHOCOLATE",
+            "marca": "MOLITALIA",
+            "imagen": "imagenes/257001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 141,
+            "nombre": "ESENCIA DE VAINILLA",
+            "marca": "UMSHA",
+            "imagen": "imagenes/929001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        },
+        {
+            "id": 142,
+            "nombre": "CREMA DE AVELLANAS",
+            "marca": "NUTELLA",
+            "imagen": "imagenes/217001.png",
+            "descripcion": "Descubre todas nuestras presentaciones"
+        }
+    ]
+},
